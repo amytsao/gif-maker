@@ -1,0 +1,656 @@
+/* CSS declarations go here */
+
+body {
+  color: #ccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.231;
+}
+input,
+button,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+a {
+  color: #005580;
+  text-decoration: none;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+a:hover {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+h1,
+.h1 {
+  padding: 10px;
+  font-size: 64px;
+}
+h2,
+.h2 {
+  font-size: 52px;
+}
+h3,
+.h3 {
+  font-size: 39.998000000000005px /* 40px */;
+}
+h4,
+.h4 {
+  font-size: 28.994000000000003px /* 29px */;
+}
+h5,
+.h5 {
+  font-size: 28px /* 28px */;
+}
+h6,
+.h6 {
+  font-size: 23.996px /* 24px */;
+}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+  line-height: 1.2em;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+h3 {
+  font-weight: 700;
+}
+h4 {
+  font-weight: 500;
+  margin-top: 4px;
+}
+h5 {
+  font-weight: 500;
+}
+h6 {
+  font-weight: normal;
+}
+p {
+  font-size: 18.004px;
+  /* 18px */
+
+  line-height: 1.722169;
+  /* 31px */
+
+}
+
+.btn {
+  border: none;
+  color: #ffffff;
+  padding: 9px 12px 10px 10px;
+  line-height: 22px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+.btn:hover,
+.btn:focus {
+  color: white;
+  outline: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+.btn.btn-large {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 18px 13px 10px;
+}
+.input-append input {
+  -webkit-border-radius: 6px 0 0 6px;
+  -moz-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px;
+}
+
+.main-navigation {
+  margin-bottom: 0;
+}
+
+.navbar a {
+  padding: 29px 10px 0;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.navbar a.active {
+  color: #005580;
+}
+
+body {
+  overflow-x: hidden;
+}
+body > section,
+header,
+footer {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1, .h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #7f8c8d;
+}
+h1 {
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+}
+img {
+  -webkit-backface-visibility: hidden;
+}
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover,
+button:hover,
+a:focus,
+button:focus,
+a:active,
+button:active {
+  outline: none;
+}
+.navbar .subnav {
+  display: none;
+}
+.delimiter {
+  margin-top: 200px;
+}
+.delimiter.line {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-top: 2px solid #ebedee;
+}
+header {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  z-index: 100;
+}
+section * {
+  z-index: 2;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 650px;
+}
+
+/* Options Section */
+
+.options-section {
+  background: #111;
+}
+.options-section label {
+  color: white;
+}
+.options-section h3 {
+  text-align: center;
+  color: white;
+  margin: 0 0 30px;
+  padding-top: 20px;
+}
+.options-section button {
+  margin: 0 5px;
+}
+.options-button-group {
+  text-align: center;
+}
+.options-form {
+  padding: 0 10px;
+}
+
+/* Preview Section */
+
+.preview-section {
+  color: #000;
+}
+.preview-section h3 {
+  color: #2c3e50;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.preview-section .gifshot-progress-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+/* Demo Section */
+
+.options-section,
+.preview-section {
+  height: 100vh;
+  overflow: auto;
+}
+
+.options-section {
+  overflow-x: hidden;
+}
+
+.language-javascript {
+  border: none;
+}
+
+.placeholder-div {
+  background: #f5f5f5;
+  margin: 0 auto;
+  position: relative;
+}
+
+.placeholder-div-dimensions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 20px;
+}
+
+.button {
+  border: 1px solid #bbb;
+  border-radius: .3em;
+  box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+  background: #f3f3f3; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%); /* W3C */
+}
+
+select option {
+  background: #f3f3f3;
+}
+
+select {
+  cursor: pointer;
+}
+
+/* remove standard styling 
+ * for all HTML5 progress enabled browsers
+ */
+ 
+progress
+{
+  /* turn of styling */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+ 
+  /* no default border in FF and Opera */
+  border: none;
+ 
+  /* Dimensions */
+  width: 300px;
+  height: 40px;
+
+  border-radius: 4px;
+}
+ 
+/* Firefox  */ 
+progress  {
+   background: #f5f5f5;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1)
+}
+progress::-moz-progress-bar {
+    background: #5cb85c;
+}
+progress:not([value])::-moz-progress-bar {
+  background:#fdd;
+}
+ 
+/* Chrome */
+progress::-webkit-progress-bar {
+    background: #f5f5f5;
+}
+progress::-webkit-progress-value {
+    background: #5cb85c;
+}
+progress:not([value])::-webkit-progress-bar {
+  background:#fdd;
+}
+
+@media (max-width: 992px) {
+  .demo-navigation {
+    display: none;
+  }
+  .fixed-title {
+    text-align: right;
+  }
+
+  .options-section,
+  .preview-section {
+    height: 400px;
+  }
+  .options-button-group {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 698px) {
+  body {
+    padding: 0 10px;
+  }
+  .background-yahoo-sports {
+    display: none;
+  }
+  .features-section {
+    padding-top: 30px;
+  }
+  .teammate {
+    margin-left: 0px;
+  }
+  .demo-navigation {
+    display: none;
+  }
+  .fixed-title {
+    text-align: right;
+  }
+  .gifshot-images {
+    min-width: inherit;
+    min-height: inherit;
+  }
+}
+
+.gifshot-loader {
+  height: 75px;
+  width: 75px;
+  vertical-align: middle;
+  display: inline-block;
+  -webkit-animation: rotation .4s infinite linear;
+  -moz-animation: rotation .4s infinite linear;
+  animation: rotation .4s infinite linear;
+  border: 3px solid rgba(0,0,0,0.2);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.gifshot-loader:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  height: 100%;
+  width: 100%;
+  border: 3px solid transparent;
+  border-top-color: #005580;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%
+}
+.gifshot-images .gifshot-loader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg)
+  }
+  to {
+    -webkit-transform: rotate(359deg)
+  }
+}
+@-moz-keyframes rotation {
+  from {
+    -moz-transform: rotate(0deg)
+  }
+  to {
+    -moz-transform: rotate(359deg)
+  }
+}
+@-o-keyframes rotation {
+  from {
+    -o-transform: rotate(0deg)
+  }
+  to {
+    -o-transform: rotate(359deg)
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(359deg)
+  }
+}
+
+/* CSS for slider */
+/*Range Slider Bar Time*/
+.vjs-default-skin .vjs-timebar-RS{
+  color: red;
+  top: -1em;
+  height: 100%;
+  position: relative;
+  background: rgba(100,100,100,.5);/*Quitar*/
+}
+
+
+
+/*Selection Range Slider Bar Selected*/
+.vjs-default-skin .vjs-rangeslider-holder{height: 100%;}
+
+.vjs-default-skin .vjs-selectionbar-RS{
+  height: 100%;
+  float: left;
+  width: 100%;
+  left: 0em;
+  right: 0em;
+  position:absolute;
+  background-color: #FFE800;
+  background: #FFE800;
+  background: -moz-linear-gradient(top, #FFE800, #A69700);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFE800), to(#A69700));
+  background: -webkit-linear-gradient(top, #FFE800, #A69700);
+  background: -o-linear-gradient(top, #FFE800, #A69700);
+  background: -ms-linear-gradient(top, #FFE800, #A69700);
+  background: linear-gradient(top, #FFE800, #A69700);
+  opacity: 0.8;
+}
+
+.vjs-default-skin div.vjs-rangeslider-holder.locked > div.vjs-selectionbar-RS {
+  background-color: #FF6565;
+  background: #FF6565;
+  background: -moz-linear-gradient(top, #FF6565, #300000);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF6565), to(#300000));
+  background: -webkit-linear-gradient(top, #FF6565, #300000);
+  background: -o-linear-gradient(top, #FF6565, #300000);
+  background: -ms-linear-gradient(top, #FF6565, #300000);
+  background: linear-gradient(top, #FF6565, #300000);
+}
+
+
+/*Arrow and Handle*/
+.vjs-default-skin div.vjs-rangeslider-handle {
+  position: absolute;
+  margin-top: 0;
+  cursor: pointer !important;
+  background-color: transparent;
+}
+
+.vjs-default-skin .vjs-selectionbar-left-RS{height: 100%;left: 0;z-index:10}
+.vjs-default-skin .vjs-selectionbar-right-RS{height: 100%;left: 100%;z-index:20}
+
+.vjs-default-skin div.vjs-selectionbar-left-RS,
+.vjs-default-skin div.vjs-selectionbar-right-RS {
+  top: 0em;
+  position: absolute;
+  width:0em;
+}
+
+.vjs-default-skin div.vjs-selectionbar-arrow-RS {
+  width: 0;
+  height: 0;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-top: 1em solid #FFF273;
+  margin-left: -1em;  
+  opacity: 0.8;
+  
+  position: absolute;
+  top: -1em;
+}
+.vjs-default-skin div.vjs-rangeslider-handle.active > div.vjs-selectionbar-arrow-RS {
+  border-top-color: #5F5FB3;
+}
+
+.vjs-default-skin div.vjs-rangeslider-holder.locked .vjs-rangeslider-handle > div.vjs-selectionbar-arrow-RS {
+  border-top-color: #FF6565;
+}
+
+.vjs-default-skin div.vjs-selectionbar-line-RS {
+  width: 1px;
+  height: 1em;
+  background-color: #FFF273;
+  
+  position:absolute;
+  top: 0em;
+}
+.vjs-default-skin div.vjs-rangeslider-handle.active > div.vjs-selectionbar-line-RS {
+  background-color: #5F5FB3;
+}
+
+.vjs-default-skin div.vjs-rangeslider-holder.locked .vjs-rangeslider-handle > div.vjs-selectionbar-line-RS {
+  background-color: #FF6565;
+}
+
+
+/* Time Panel */
+.vjs-default-skin .vjs-timepanel-RS{
+  width: 100%;
+  height: 1em;
+  font-weight: bold;
+  font-size: 15px;
+  top: -2em;
+  position: absolute;
+  visibility:visible;
+  opacity:1;
+  transition-delay:0s;
+}
+.vjs-default-skin .vjs-timepanel-RS.disable{
+  visibility:hidden;
+  opacity:0;
+  -webkit-transition: visibility 1s linear 1s,opacity 1s linear;
+  -moz-transition: visibility 1s linear 1s,opacity 1s linear;
+  -o-transition: visibility 1s linear 1s,opacity 1s linear;
+  transition:visibility 1s linear 1s,opacity 1s linear;
+}
+
+.vjs-default-skin .vjs-timepanel-left-RS,
+.vjs-default-skin .vjs-timepanel-right-RS{
+  font-weight: normal;
+  font-size: 1em;
+  color: #666666;
+  border: 1px solid #666666;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  height:116%;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+}
+.vjs-default-skin .vjs-timepanel-left-RS{
+  left:0.5%
+}
+.vjs-default-skin .vjs-timepanel-right-RS{
+  left:92%
+}
+
+
+
+
+/* Control Time Panel */
+.vjs-default-skin .vjs-controltimepanel-RS{
+  width: 18em;
+  font-size: 1em;
+  line-height: 3em;
+}
+
+.vjs-default-skin .vjs-controltimepanel-RS input{
+  width: 1.5em;
+  background: rgba(102, 168, 204, 0.16);
+  border: 1px solid transparent;
+  color: black;
+  font-size: 1em;
+  margin-left: 2px;
+  text-align: center;
+  color: white;
+}
+
+.vjs-default-skin .vjs-controltimepanel-left-RS{
+  width: 50%;
+  float: left;
+}
+.vjs-default-skin .vjs-controltimepanel-right-RS{
+  float:right;
+  width: 48%;
+}
+.vjs-default-skin .vjs-controltimepanel-RS input{
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+}
+
+
+/* ---------------- Video-js plugin ---------------- */
+
+.vjs-default-skin *, .vjs-default-skin *:before, .vjs-default-skin *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
